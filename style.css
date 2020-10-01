@@ -27,27 +27,31 @@ header p{
     display:flex;
 }
 .pads > div{
-    height:100px;
+    height:150px;
     width:100px;
     flex:1;
 }
 .pad1{
-    background: #60d394;
+    
+    background: #6860d3;
 }
 .pad2{
-    background:#d36060;
+    
+    background:#60b2d3;
 }
 .pad3{
-    background:#c060d3;
+    
+    background:#60d394;
 }
 .pad4{
-    background:#d3d160;
+    background:#fffa6b;
 }
 .pad5{
-    background:#6860d3;
+    
+    background:#f0843d;
 }
 .pad6{
-    background:#60b2d3;
+    background:#d36060;
 }
 
 @keyframes jump {

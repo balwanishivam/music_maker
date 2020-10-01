@@ -14,7 +14,7 @@ window.addEventListener('load',()=>{
     console.log(visual);
     
       document.addEventListener('keydown', function(e) {
-        if (e.keyCode == 65) {
+        if (e.keyCode == 96) {
             sounds[0].currentTime=0;
             sounds[0].play();
             index=0;
@@ -22,7 +22,7 @@ window.addEventListener('load',()=>{
         }
       });
       document.addEventListener('keydown', function(e) {
-        if (e.keyCode == 69) {
+        if (e.keyCode == 97) {
             sounds[1].currentTime=0;
             sounds[1].play();
             index=1;
@@ -30,7 +30,7 @@ window.addEventListener('load',()=>{
         }
       });
       document.addEventListener('keydown', function(e) {
-        if (e.keyCode == 68) {
+        if (e.keyCode == 98) {
             sounds[2].currentTime=0;
             sounds[2].play();
             index=2;
@@ -38,7 +38,7 @@ window.addEventListener('load',()=>{
         }
       });
       document.addEventListener('keydown', function(e) {
-        if (e.keyCode == 83) {
+        if (e.keyCode == 99) {
             sounds[4].currentTime=0;
             sounds[4].play();
             index=4;
@@ -46,7 +46,7 @@ window.addEventListener('load',()=>{
         }
       });
       document.addEventListener('keydown', function(e) {
-        if (e.keyCode == 87) {
+        if (e.keyCode == 100) {
             sounds[5].currentTime=0;
             sounds[5].play();
             index=5;
@@ -54,7 +54,7 @@ window.addEventListener('load',()=>{
         }
       });
       document.addEventListener('keydown', function(e) {
-        if (e.keyCode == 81) {
+        if (e.keyCode == 101) {
             sounds[3].currentTime=0;
             sounds[3].play();
             index=3;
